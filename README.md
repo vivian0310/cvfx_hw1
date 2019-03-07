@@ -35,7 +35,9 @@ cycleGAN的限制在於只能對兩個domain之間進行轉換，同時也需要
 ## Training MUNIT
 
 MUNIT的training過程如下，到生成之前共跑了約70萬筆iterations
+
 ![](https://i.imgur.com/LqLl9CH.jpg)
+
 ![](https://i.imgur.com/HHpqZMZ.jpg)
 
 下圖為過程中用70萬iterations的model將test image轉換的截圖：
