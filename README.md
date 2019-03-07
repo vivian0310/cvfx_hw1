@@ -22,7 +22,7 @@
 
 ![](https://i.imgur.com/eqfHqdV.png)
 
-2. 隨機的台灣市區
+2. 台灣某縣市市區
 
 ![](https://i.imgur.com/e3LO26P.jpg) ![](https://i.imgur.com/2eROpKA.jpg)
 
@@ -32,7 +32,7 @@
 
 ![](https://i.imgur.com/sL6pZvH.png)
 
-3. 隨機的台灣市區及河流
+3. 台灣某縣市市區及河流
 
 ![](https://i.imgur.com/kO4Rt3h.jpg) ![](https://i.imgur.com/nsDNYGq.jpg)
 
