@@ -4,7 +4,7 @@
 * Other method: MUNIT
 
 ## Training cycleGAN
-我們選擇的dataset為maps
+我們選擇的dataset為maps  
 下圖為cycleGAN在training中所存的.pth檔截圖
 
 ![](https://i.imgur.com/0fKLGSP.jpg)
@@ -46,7 +46,7 @@
 - MUNIT架構：
 ![](https://i.imgur.com/y9MkvFx.png)
 
-- MUNIT特色：
+- MUNIT特色：  
 cycleGAN的限制在於只能對兩個domain之間進行轉換，同時也需要個別的generator以及discriminator。
 而在MUNIT中，一張圖像被假設是由content code與style code所合成而來。其中，content code描述的是圖像本質上的結構資訊；而style code描述的是如何表現content code所記錄的結構資訊。
 其中，就同一個content code而言，我們可以藉由搭配不同的style codes來產生同一個domain不同型態的outputs，如此便克服了前述的困境─缺乏輸出圖像的多樣性。
@@ -60,9 +60,8 @@ MUNIT的training過程如下，到生成之前共跑了約70萬筆iterations
 ![](https://i.imgur.com/LqLl9CH.jpg)
 ![](https://i.imgur.com/HHpqZMZ.jpg)
 
-下圖為過程中用70萬iterations的model將test image轉換的截圖：
-(上兩圖為：input, reconstruction output, 
-  下兩圖則為model隨機style生成的output*2)
+下圖為過程中用70萬iterations的model將test image轉換的截圖：  
+(上兩圖為：input, reconstruction output, 下兩圖則為model隨機style生成的output*2)
   
 ![](https://i.imgur.com/O58T0el.jpg)
 
